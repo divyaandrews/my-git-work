@@ -1,0 +1,15 @@
+name: My Email Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 25ds1000078@ds.study.iitm.ac.in
+        run: echo "Hello, world! My email is 25ds1000078@ds.study.iitm.ac.in"
+      
+      - name: Check current time
+        run: echo "The time is $(date)"
